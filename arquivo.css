@@ -1,0 +1,162 @@
+css
+Copy code
+
+.table-wrapper {
+  overflow-x: auto;
+}
+
+table {
+  border-collapse: collapse;
+  margin-top: 80px;
+  margin-left: 250px;
+  background-color: #363636;
+  color: #eee;
+  width: 70%;
+}
+
+th, td {
+  padding: 10px;
+  text-align: center;
+  border-bottom: 1px solid #000000;
+}
+
+th {
+  font-weight: 700;
+  background-color: #00008B;
+}
+
+td:first-child {
+  font-weight: 700;
+}
+
+tr:hover {
+  background-color: #00008B;
+}
+
+@media screen and (max-width: 600px) {
+  .table-wrapper {
+
+  }
+  th {
+    text-align: center;
+    background-color: #000000;
+    border: none;
+  }
+  td {
+    border-bottom: none;
+  }
+  td:first-child {
+    font-weight: 900;
+    padding-top: 10px;
+  }
+}
+
+nav {
+  position: fixed;
+  top: = 0;
+  left: = 0;
+  width: 150px;
+  height: 100%;
+  background-color: #00008B;
+  padding: 15px;
+}
+
+/* remove o padding e margin padrão da lista, e define o display como flex */
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0px;
+}
+
+nav li {
+  margin-bottom: 20px;
+}
+
+/* define a aparência dos links. Eles são exibidos como blocos com um fundo transparente,
+texto branco e um preenchimento de 10px 15px. Eles também têm um raio de borda de 5px e uma
+transição suave de cor de fundo quando o mouse passa por cima */
+nav ul li a {
+  display: block;
+  color: #eee;
+  text-decoration: none;
+  padding: 8px 5px;
+  border-radius: 8px;
+  transition: background-color 0.3s ease-in-out;
+}
+
+/* define a cor de fundo quando o mouse passa sobre o link. */
+nav ul li a:hover {
+    background-color: #363636;
+}
+
+/* Define o estilo do corpo da página */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #191970;
+}
+
+/* Define o estilo de um elemento de cabeçalho */
+h1 {
+  font-size: 1em;
+  font-weight: bold;
+  color: #eee;
+  text-align: center;
+  font-family: Monaco;
+}
+
+h2 {
+  font-size: 1.6em;
+  font-weight: bold;
+  margin-left: 300px;
+  color: #eee;
+  text-align: left;
+  font-family: Monaco;
+}
+
+/* Define o estilo de um link */
+a {
+  color: #a7a6a6;
+  text-decoration: none;
+  text-align: center;
+}
+
+p {
+  font-family: times;
+  color: #eee;
+  text-decoration: none;
+  text-align: left;
+  margin-left: 300px;
+  padding: 5px;
+}
+
+/* Define o estilo de um botão */
+button {
+  margin-left: 300px;
+  background-color: #0066cc;
+  color: #eee;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 4px;
+  font-size: 1.2em;
+}
+
+.btn {
+        margin-top: 40px;
+        margin-right: -280px;
+        margin-left: 300px;
+		display: inline-block;
+		padding: 12px 24px;
+		font-size: 16px;
+		font-weight: bold;
+		text-align: center;
+		text-decoration: none;
+		color: #fff;
+		background-color: #4CAF50;
+		border-radius: 6px;
+		border: none;
+		cursor: pointer;
+		transition: background-color 0.3s ease;
+	}
+.btn:hover {
+	background-color: #3e8e41;
+}

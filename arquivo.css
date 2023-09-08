@@ -9,7 +9,7 @@ table {
   border-collapse: collapse;
   margin-top: 80px;
   margin-left: 250px;
-  background-color: #363636;
+  background-color: rgba(255, 0, 0, 0.3);
   color: #eee;
   width: 70%;
 }
@@ -18,11 +18,21 @@ th, td {
   padding: 10px;
   text-align: center;
   border-bottom: 1px solid #000000;
+  text-shadow:
+                    -1px -1px 0 black,
+                    1px -1px 0 black,
+                    -1px 1px 0 black,
+                    1px 1px 0 black;
 }
 
 th {
   font-weight: 700;
   background-color: #00008B;
+  text-shadow:
+                    -1px -1px 0 black,
+                    1px -1px 0 black,
+                    -1px 1px 0 black,
+                    1px 1px 0 black;
 }
 
 td:first-child {
@@ -33,31 +43,13 @@ tr:hover {
   background-color: #00008B;
 }
 
-@media screen and (max-width: 600px) {
-  .table-wrapper {
-
-  }
-  th {
-    text-align: center;
-    background-color: #000000;
-    border: none;
-  }
-  td {
-    border-bottom: none;
-  }
-  td:first-child {
-    font-weight: 900;
-    padding-top: 10px;
-  }
-}
-
 nav {
   position: fixed;
   top: = 0;
   left: = 0;
   width: 150px;
   height: 100%;
-  background-color: #00008B;
+  background-color: #000000;
   padding: 15px;
 }
 
@@ -77,7 +69,7 @@ texto branco e um preenchimento de 10px 15px. Eles também têm um raio de borda
 transição suave de cor de fundo quando o mouse passa por cima */
 nav ul li a {
   display: block;
-  color: #eee;
+  color: #00008B;
   text-decoration: none;
   padding: 8px 5px;
   border-radius: 8px;
@@ -86,13 +78,16 @@ nav ul li a {
 
 /* define a cor de fundo quando o mouse passa sobre o link. */
 nav ul li a:hover {
-    background-color: #363636;
+    background-color: #3B3021;
 }
 
 /* Define o estilo do corpo da página */
 body {
   font-family: Arial, sans-serif;
-  background-color: #191970;
+  background-image: url('fotofundo.jpg'); /* Substitua pelo caminho da sua imagem */
+  background-size: cover; /* Ajusta o tamanho da imagem para cobrir todo o elemento */
+  background-repeat: no-repeat; /* Impede que a imagem se repita */
+  background-attachment: fixed; /* Fixa a imagem para que ela não role com a página */
 }
 
 /* Define o estilo de um elemento de cabeçalho */
@@ -102,6 +97,11 @@ h1 {
   color: #eee;
   text-align: center;
   font-family: Monaco;
+  text-shadow:
+                  -1px -1px 0 black,
+                  1px -1px 0 black,
+                  -1px 1px 0 black,
+                  1px 1px 0 black;
 }
 
 h2 {
@@ -111,6 +111,11 @@ h2 {
   color: #eee;
   text-align: left;
   font-family: Monaco;
+  text-shadow:
+                  -1px -1px 0 black,
+                  1px -1px 0 black,
+                  -1px 1px 0 black,
+                  1px 1px 0 black;
 }
 
 /* Define o estilo de um link */
@@ -118,11 +123,21 @@ a {
   color: #a7a6a6;
   text-decoration: none;
   text-align: center;
+  text-shadow:
+                  -1px -1px 0 black,
+                  1px -1px 0 black,
+                  -1px 1px 0 black,
+                  1px 1px 0 black;
 }
 
 p {
   font-family: times;
   color: #eee;
+  text-shadow:
+                -1px -1px 0 black,
+                1px -1px 0 black,
+                -1px 1px 0 black,
+                1px 1px 0 black;
   text-decoration: none;
   text-align: left;
   margin-left: 300px;
@@ -130,16 +145,6 @@ p {
 }
 
 /* Define o estilo de um botão */
-button {
-  margin-left: 300px;
-  background-color: #0066cc;
-  color: #eee;
-  border: none;
-  padding: 10px 20px;
-  border-radius: 4px;
-  font-size: 1.2em;
-}
-
 .btn {
         margin-top: 40px;
         margin-right: -280px;

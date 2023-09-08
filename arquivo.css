@@ -88,6 +88,7 @@ body {
   background-size: cover; /* Ajusta o tamanho da imagem para cobrir todo o elemento */
   background-repeat: no-repeat; /* Impede que a imagem se repita */
   background-attachment: fixed; /* Fixa a imagem para que ela não role com a página */
+  background-color: black;
 }
 
 /* Define o estilo de um elemento de cabeçalho */

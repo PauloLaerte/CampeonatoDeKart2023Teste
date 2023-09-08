@@ -83,40 +83,49 @@ nav ul li a:hover {
 
 /* Define o estilo do corpo da página */
 body {
-  font-family: Arial, sans-serif;
-  background-image: url('fotofundo.jpg'); /* Substitua pelo caminho da sua imagem */
-  background-size: cover; /* Ajusta o tamanho da imagem para cobrir todo o elemento */
-  background-repeat: no-repeat; /* Impede que a imagem se repita */
-  background-attachment: fixed; /* Fixa a imagem para que ela não role com a página */
-  background-color: black;
+    font-family: Arial, sans-serif;
+    background-image: url('fotofundo.jpg'); /* Substitua pelo caminho da sua imagem */
+    background-size: cover; /* Ajusta o tamanho da imagem para cobrir todo o elemento */
+    background-repeat: no-repeat; /* Impede que a imagem se repita */
+    background-attachment: fixed; /* Fixa a imagem para que ela não role com a página */
+    background-color: black;
+}
+@media screen and (max-width: 768px) {
+    body {
+        background-image: url('fotofundocel.jpg');
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-color: black;
+    }
 }
 
 /* Define o estilo de um elemento de cabeçalho */
 h1 {
-  font-size: 1em;
-  font-weight: bold;
-  color: #eee;
-  text-align: center;
-  font-family: Monaco;
-  text-shadow:
-                  -1px -1px 0 black,
-                  1px -1px 0 black,
-                  -1px 1px 0 black,
-                  1px 1px 0 black;
+    font-size: 1em;
+    font-weight: bold;
+    color: #eee;
+    text-align: center;
+    font-family: Monaco;
+    text-shadow:
+        -1px -1px 0 black,
+        1px -1px 0 black,
+        -1px 1px 0 black,
+        1px 1px 0 black;
 }
 
 h2 {
-  font-size: 1.6em;
-  font-weight: bold;
-  margin-left: 300px;
-  color: #eee;
-  text-align: left;
-  font-family: Monaco;
-  text-shadow:
-                  -1px -1px 0 black,
-                  1px -1px 0 black,
-                  -1px 1px 0 black,
-                  1px 1px 0 black;
+    font-size: 1.6em;
+    font-weight: bold;
+    margin-left: 300px;
+    color: #eee;
+    text-align: left;
+    font-family: Monaco;
+    text-shadow:
+        -1px -1px 0 black,
+        1px -1px 0 black,
+        -1px 1px 0 black,
+        1px 1px 0 black;
 }
 
 /* Define o estilo de um link */

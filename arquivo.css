@@ -39,10 +39,6 @@ td:first-child {
   font-weight: 700;
 }
 
-tr:hover {
-  background-color: #00008B;
-}
-
 nav {
   position: fixed;
   top: = 0;

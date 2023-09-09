@@ -2,74 +2,74 @@ css
 Copy code
 
 .table-wrapper {
-  overflow-x: auto;
+    overflow-x: auto;
 }
 
 table {
-  border-collapse: collapse;
-  margin-top: 80px;
-  margin-left: 200px;
-  background-color: rgba(255, 0, 0, 0.3);
-  color: #eee;
-  width: 75%;
+    border-collapse: collapse;
+    margin-top: 80px;
+    margin-left: 200px;
+    background-color: rgba(255, 0, 0, 0.3);
+    color: #eee;
+    width: 75%;
 }
 
 th, td {
-  padding: 10px;
-  text-align: center;
-  border-bottom: 1px solid #000000;
-  text-shadow:
-                    -1px -1px 0 black,
-                    1px -1px 0 black,
-                    -1px 1px 0 black,
-                    1px 1px 0 black;
+    padding: 10px;
+    text-align: center;
+    border-bottom: 1px solid #000000;
+    text-shadow:
+        -1px -1px 0 black,
+        1px -1px 0 black,
+        -1px 1px 0 black,
+        1px 1px 0 black;
 }
 
 th {
-  font-weight: 700;
-  background-color: #00008B;
-  text-shadow:
-                    -1px -1px 0 black,
-                    1px -1px 0 black,
-                    -1px 1px 0 black,
-                    1px 1px 0 black;
+    font-weight: 700;
+    background-color: #00008B;
+    text-shadow:
+        -1px -1px 0 black,
+        1px -1px 0 black,
+        -1px 1px 0 black,
+        1px 1px 0 black;
 }
 
 td:first-child {
-  font-weight: 700;
+    font-weight: 700;
 }
 
 nav {
-  position: fixed;
-  top: = 0;
-  left: = 0;
-  width: 150px;
-  height: 100%;
-  background-color: #000000;
-  padding: 15px;
+    position: fixed;
+    top: = 0;
+    left: = 0;
+    width: 150px;
+    height: 100%;
+    background-color: #000000;
+    padding: 15px;
 }
 
 /* remove o padding e margin padrão da lista, e define o display como flex */
 nav ul {
-  list-style-type: none;
-  margin: 0;
-  padding: 0px;
+    list-style-type: none;
+    margin: 0;
+    padding: 0px;
 }
 
 nav li {
-  margin-bottom: 20px;
+    margin-bottom: 20px;
 }
 
 /* define a aparência dos links. Eles são exibidos como blocos com um fundo transparente,
 texto branco e um preenchimento de 10px 15px. Eles também têm um raio de borda de 5px e uma
 transição suave de cor de fundo quando o mouse passa por cima */
 nav ul li a {
-  display: block;
-  color: #00008B;
-  text-decoration: none;
-  padding: 8px 5px;
-  border-radius: 8px;
-  transition: background-color 0.3s ease-in-out;
+    display: block;
+    color: #00008B;
+    text-decoration: none;
+    padding: 8px 5px;
+    border-radius: 8px;
+    transition: background-color 0.3s ease-in-out;
 }
 
 /* define a cor de fundo quando o mouse passa sobre o link. */
@@ -86,6 +86,7 @@ body {
     background-attachment: fixed; /* Fixa a imagem para que ela não role com a página */
     background-color: black;
 }
+
 @media screen and (max-width: 768px) {
     body {
         background-image: url('fotofundocel.jpg');
@@ -126,48 +127,49 @@ h2 {
 
 /* Define o estilo de um link */
 a {
-  color: #a7a6a6;
-  text-decoration: none;
-  text-align: center;
-  text-shadow:
-                  -1px -1px 0 black,
-                  1px -1px 0 black,
-                  -1px 1px 0 black,
-                  1px 1px 0 black;
+    color: #a7a6a6;
+    text-decoration: none;
+    text-align: center;
+    text-shadow:
+        -1px -1px 0 black,
+        1px -1px 0 black,
+        -1px 1px 0 black,
+        1px 1px 0 black;
 }
 
 p {
-  font-family: times;
-  color: #eee;
-  text-shadow:
-                -1px -1px 0 black,
-                1px -1px 0 black,
-                -1px 1px 0 black,
-                1px 1px 0 black;
-  text-decoration: none;
-  text-align: left;
-  margin-left: 300px;
-  padding: 5px;
+    font-family: times;
+    color: #eee;
+    text-shadow:
+        -1px -1px 0 black,
+        1px -1px 0 black,
+        -1px 1px 0 black,
+        1px 1px 0 black;
+    text-decoration: none;
+    text-align: left;
+    margin-left: 300px;
+    padding: 5px;
 }
 
 /* Define o estilo de um botão */
 .btn {
-        margin-top: 40px;
-        margin-right: -280px;
-        margin-left: 300px;
-		display: inline-block;
-		padding: 12px 24px;
-		font-size: 16px;
-		font-weight: bold;
-		text-align: center;
-		text-decoration: none;
-		color: #fff;
-		background-color: #4CAF50;
-		border-radius: 6px;
-		border: none;
-		cursor: pointer;
-		transition: background-color 0.3s ease;
-	}
+    margin-top: 40px;
+    margin-right: -280px;
+    margin-left: 300px;
+	display: inline-block;
+	padding: 12px 24px;
+	font-size: 16px;
+	font-weight: bold;
+	text-align: center;
+	text-decoration: none;
+	color: #fff;
+	background-color: #4CAF50;
+	border-radius: 6px;
+	border: none;
+	cursor: pointer;
+	transition: background-color 0.3s ease;
+}
+
 .btn:hover {
 	background-color: #3e8e41;
 }
